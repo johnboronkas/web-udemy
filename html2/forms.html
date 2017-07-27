@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Demo</title>
+</head>
+<body>
+    <h1>Login</h1>
+
+    <!-- action - where the form sends data (the request) -->
+    <!-- method - which http method (get/post/etc) -->
+    <!-- forms are block-level elements -->
+
+    <!-- Sends a get to wikipedia on submit -->
+    <!-- <form action="http://wikipedia.com" method="get"> -->
+
+    <!-- Query strings: -->
+    <!-- ?username=user&password=pass -->
+
+    <form>
+        <label>
+            Email:
+            <input name="email" type="email" placeholder="email" required>
+        </label>
+
+        <label>
+            Password:
+            <input name="password" type="password" placeholder="password" required>
+        </label>
+
+        <input type="submit">
+    </form>
+
+</body>
+</html>
